@@ -13,5 +13,3 @@ variable "app-selector" {
 output "admin-token" {
   value = nonsensitive(kubernetes_secret_v1.admin-user.data.token)
 }
-
-# kubectl proxy & 

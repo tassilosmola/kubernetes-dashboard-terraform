@@ -5,7 +5,7 @@
 This repository contains all necessary sources for deploying a [kubernetes dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/) to a kubernetes cluster using [Terraform](https://www.terraform.io/). 
 
 If you want to deploy it on your Kubernetes instance, you have to adjust the kubernetes provider setting in `providers.tf`: 
-````json
+````
 provider "kubernetes" {
   # adjust the config settings based on your k8s setup
   config_path    = <YOUR_CONFIG_PATH>
